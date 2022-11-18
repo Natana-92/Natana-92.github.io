@@ -11,8 +11,14 @@ tags: [javascript]
 테스트를 진행해 봅시다.
 * 안녕하세요 저는 
 
+---
+## 테스트를 진행중입니다.
 # 와우! 
-
 ### 너무 좋은걸
 
-## 테스트를 진행중입니다.
+```javascript
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+```
