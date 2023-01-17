@@ -30,6 +30,7 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
+
       {% if site.post_search %}
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
@@ -45,16 +46,6 @@
     {% for file in site.navbar-extra %}
       {% include {{ file }} %}
     {% endfor %}
-  {% endif %}
-
-  {% if site.avatar and page.show-avatar != false %}
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        <a href="{{ '' | absolute_url }}">
-          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/face_icon.png" />
-        </a>
-      </div>
-    </div>
   {% endif %}
 
 </nav>

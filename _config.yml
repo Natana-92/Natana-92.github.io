@@ -21,9 +21,11 @@ author: Natana
 
 navbar-links:
   About Me: "aboutme"
-  # Resources:
-  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
-  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  # first: "studynote"
+  Study Note:
+    - Vue JS Test Code: "/category/test"
+    - Think: "/category/think"
+    - Web: "/category/web"
   # Author's home: "https://deanattali.com"
 
 ################
@@ -107,6 +109,8 @@ feed_show_tags: true
 
 # Add a search button to the navbar
 post_search: true
+
+post_category: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
