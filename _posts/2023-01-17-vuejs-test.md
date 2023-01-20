@@ -13,3 +13,10 @@ tags: [test]
 공부하면서 계속 추가하겠습니다. 
 
 ## 일단 Nuxt를 설치하기 위해서 git project를 하나 팝시다. 
+hello 영어는 어떻게 나오니?
+### hello
+
+``` javascript
+var a = "123"
+var b = "234"
+```
